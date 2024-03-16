@@ -3,8 +3,7 @@
 from Server import Server
 
 def print_program_info():
-    # TODO - Change your name
-    print("Server Automator v0.1 by Your Name")
+    print("Server Automator v0.1 by Scott Ansman")
 
 # This is the entry point to our program
 if __name__ == '__main__':
@@ -12,5 +11,3 @@ if __name__ == '__main__':
     my_server = Server("67.185.34.198")
     if my_server.ping():
         print("success")
-    # TODO - Create a Server object
-    # TODO - Call Ping method and print the results

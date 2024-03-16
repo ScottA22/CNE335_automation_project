@@ -8,6 +8,6 @@ def print_program_info():
 # This is the entry point to our program
 if __name__ == '__main__':
     print_program_info()
-    my_server = Server("67.185.34.198")
+    my_server = Server("54.71.157.246", r"D:\Downloads\ScottA_SSHKey.pem")
     if my_server.ping():
-        print("success")
+        my_server.run_a_command("sudo apt install -y lynx")
